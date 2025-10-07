@@ -88,7 +88,7 @@ no file seems to have a size of 1033 bytes but maybehere10 has the lowest size o
 The above size was for directories not the files.
 
 Have to check each folder with python script - this will give gibberish output.\
-Have to check how to pass files having special character to du command
+Have to check how to pass files having special character to du command.
 
 Only two files in each directory seem to be not executable -file2 and spaces file2.\
 One possiblity is checking inside each file but that will take too long.\
@@ -96,5 +96,5 @@ Need to find the size of each one of these files. -file2 is creating problems wi
 Had to go through all the directories manually and looking into properties of -file2 and spaces file2 till found.\
 __had to use the -- operator to pass arguments effectively__
 \
-Ex: `file -- -file2` gives a proper output
+Ex: `file -- -file2` gives a proper output.
 
