@@ -1,7 +1,7 @@
 # Bandit
 <h3>
 This repo serves as my viewpoint of going through OverTheWire:Bandit CTF</h3>
-[Bandit] (https://overthewire.org/wargames/bandit/)
+(https://overthewire.org/wargames/bandit/)
 <h3>This is not the best solution but merely what I did when going through.</h3>
 
 <h3>Consider trying the challenge yourself first and enjoy the process instead of spoiling it.</h3>
@@ -84,10 +84,10 @@ This one has many files and the properties of the file is given so will need to 
 
 Need to know how to view file sizes
 maybe use du command
-no file seems to have a size of 1033 bytes but maybehere10 has the lowest size of 28426 so checking that first.
+no file seems to have a size of 1033 bytes but maybehere10 has the lowest size of 28426 so checking that first.\
 The above size was for directories not the files.
 
-Have to check each folder with python script - this will give gibberish output.
+Have to check each folder with python script - this will give gibberish output.\
 Have to check how to pass files having special character to du command
 
 Only two files in each directory seem to be not executable -file2 and spaces file2.\
