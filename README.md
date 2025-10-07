@@ -1,6 +1,7 @@
 # Bandit
 <h3>
 This repo serves as my viewpoint of going through OverTheWire:Bandit CTF</h3>
+[Bandit] (https://overthewire.org/wargames/bandit/)
 <h3>This is not the best solution but merely what I did when going through.</h3>
 
 <h3>Consider trying the challenge yourself first and enjoy the process instead of spoiling it.</h3>
@@ -60,11 +61,11 @@ ls gives nothing, ls -l gives total 0
 How to do it?
 Trying to ls from outside the directory
 
-find inhere/ gives the file names
+`find inhere/` gives the file names
 
 Now just cat the file name. directly "cat"-ing with the file name will not give output and will show no such file or directory.\
 So have to use the output of the find command into as a parameter for the cat command we do it by backticks \`\
-So the command is **cat \`find inhere/\`**
+So the command is `` cat `find inhere/` ``
 ___
 \
 \
@@ -96,4 +97,4 @@ Had to go through all the directories manually and looking into properties of -f
 __had to use the -- operator to pass arguments effectively__
 \
 Ex: `file -- -file2` gives a proper output
-___
+
